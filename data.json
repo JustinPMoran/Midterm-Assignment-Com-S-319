@@ -1,0 +1,65 @@
+{
+    "photos": [
+        {
+            "bio": "I’m a sophomore in Computer Science studying at Iowa State University.\n Previous Courses include COM S 127, 227, 228. \n Skills include experience coding in Java, Python, HTML, CSS, JavaScript, C#, Google App Script",
+            "name": "Steven Bui",
+            "image": "./Images/vantine_linked_in_2657987.jpg",
+            "contact": "sbui14@iastate.edu"
+        },
+        {
+            "bio": "<br>I am Justin Moran. I am a sophomore at Iowa State University currently majoring in Computer Science, and Minoring in Psychology. <br><br>Previous courses that I have taken include but are not limited to: Com S 127, Com S 128, Com S 227, Com S 228, and Com S 230. <br><br>I have experience with using Python, Java, HTML, CSS, and JavaScript",
+            "name": "Justin Moran",
+            "image": "Images/justinHeadshot.png",
+            "contact": "<br>jmoran0@iastate.edu"
+        }
+    ],
+    "services": [
+        {
+            "membership": "Free",
+            "price": "0",
+            "description": "Our free membership tier provides essential coverage to help you safeguard your assets and protect against unexpected risks. With this membership, you'll have access to fundamental insurance services tailored to your needs. While it offers a basic level of protection, it ensures that you have peace of mind without the burden of additional fees.",
+            "background": "./Images/download.png",
+            "image": "./Images/serviceimage1.jpeg"
+        },
+        {
+            "membership": "Pro",
+            "price": "25",
+            "description": "Upgrade to our Pro membership tier for enhanced coverage and additional benefits designed to meet the needs of individuals and families seeking comprehensive protection. With Pro membership, you'll enjoy an array of exclusive services and perks to support your lifestyle and provide added security.",
+            "background": "./Images/pre-background.jpg",
+            "image": "./Images/serviceimage2.jpeg"
+        },
+        {
+            "membership": "Exclusive",
+            "price": "50",
+            "description": "For those seeking unparalleled protection and premium services, our Exclusive membership tier offers the highest level of coverage and exclusive benefits tailored to your unique needs. Designed for discerning individuals and high-net-worth clients, Exclusive membership provides comprehensive insurance solutions and personalized assistance to safeguard your assets and lifestyle.",
+            "background": "./Images/saturatedBgLeft.png",
+            "image": "./Images/serviceimage3.jpeg"
+        }
+    ],
+    "products": [
+        {
+            "desc": "Safer",
+            "image": "./images/transparentWhiteCheck.png"
+        },
+        {
+            "desc": "Faster",
+            "image": "./images/transparentWhiteCheck.png"
+        },
+        {
+            "desc": "Easier",
+            "image": "./images/transparentWhiteCheck.png"
+        }
+    ],
+    "news": [
+        {
+            "title": "Testimonial From The Smith's",
+            "image": "./Images/newsImage1.jpg",
+            "text": "I've been with WellGuard for over five years now, and I couldn't be happier with their services. When my car was involved in a minor accident last year, their claims process was seamless and stress-free. The customer support team was incredibly helpful and guided me through every step of the way, ensuring that my claim was processed quickly and efficiently. Thanks to Wellguard, I was back on the road in no time, and I'm grateful for their reliable and trustworthy service. I highly recommend Wellguard to anyone looking for peace of mind and excellent coverage."
+        },
+        {
+            "title": "News From The Adam's Family",
+            "image": "Images/newsImage2.jpg",
+            "text": "Switching to WellGuard Insurance was one of the best decisions I've made for my family's security. Their team went above and beyond to tailor a policy that perfectly fit our needs and budget. When we experienced water damage in our home last winter, I was amazed by how smoothly WellGuard Insurance handled our claim. From the initial assessment to the final settlement, their claims process was efficient and transparent. Their dedicated support team was always available to address any concerns we had, providing personalized assistance every step of the way. Thanks to WellGuard Insurance, we were able to restore our home without any financial strain. I can't recommend WellGuard Insurance enough for their exceptional service and commitment to their clients' well-being."
+        }
+    ]
+}

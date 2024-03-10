@@ -1,0 +1,127 @@
+body {
+    margin-top: 20px;
+    background: #eee;
+}
+
+.gradient-brand-color {
+    background-image: -webkit-linear-gradient(0deg, #376be6 0%, #6470ef 100%);
+    background-image: -ms-linear-gradient(0deg, #376be6 0%, #6470ef 100%);
+    color: #fff;
+}
+
+.contact-info__wrapper {
+    overflow: hidden;
+    border-radius: .625rem .625rem 0 0
+}
+
+@media (min-width: 1024px) {
+    .contact-info__wrapper {
+        border-radius: 0 .625rem .625rem 0;
+        padding: 5rem !important
+    }
+}
+
+.contact-info__list span.position-absolute {
+    left: 0
+}
+
+.z-index-101 {
+    z-index: 101;
+}
+
+.list-style--none {
+    list-style: none;
+}
+
+.contact__wrapper {
+    background-color: #fff;
+    border-radius: 0 0 .625rem .625rem
+}
+
+@media (min-width: 1024px) {
+    .contact__wrapper {
+        border-radius: .625rem 0 .625rem .625rem
+    }
+}
+
+@media (min-width: 1024px) {
+    .contact-form__wrapper {
+        padding: 5rem !important
+    }
+}
+
+.shadow-lg,
+.shadow-lg--on-hover:hover {
+    box-shadow: 0 1rem 3rem rgba(132, 138, 163, 0.1) !important;
+}
+
+.containerDown {
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+}
+
+/* New ...................................................................................................*/
+
+.footerBottomNew {
+    color: #858585;
+    font-weight: 100;
+    background-color: white;
+    text-align: center;
+    font-size: small;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.footerBottom {
+    color: #858585;
+    font-weight: 100;
+    background-color: white;
+    text-align: center;
+    font-size: small;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    /* margin-top: 10px; */
+}
+
+.footer {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 60px;
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* margin-bottom: 65px;
+    margin-top: 65px; */
+}
+
+.footer a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer-categories {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    /* Align items to the left */
+    width: 50%;
+}
+
+.footer-subcategories {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-subcategories li {
+    margin: 5px 0;
+}

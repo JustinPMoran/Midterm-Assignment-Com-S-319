@@ -1,0 +1,47 @@
+.navbar {
+  background-color: white;
+}
+
+.navbar-nav {
+  margin-left: 2rem;
+}
+
+.navbar-toggler {
+  margin-left: auto;
+  margin-right: 2rem;
+}
+
+.logoAlignment {
+  margin-left: -25px;
+}
+
+.navbar-logo {
+  margin-right: auto;
+}
+
+.navbar-login {
+  margin-left: auto;
+}
+
+@media (max-width: 992px) {
+  .navbar-nav:not(.show-nav) .nav-item {
+      display: none;
+  }
+
+  .navbar-nav.show-nav {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .navbar-nav.show-nav .nav-item {
+      display: block;
+  }
+}
+
+.nav-item {
+  margin-right: 4rem;
+}
+
+.addShadow {
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+}
